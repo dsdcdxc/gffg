@@ -1,0 +1,23 @@
+
+.san-pham{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+.san-pham .ten{
+    
+    font-size: 30px;
+    font-variant:small-caps ;
+    color: black;
+}
+.san-pham .color{
+    color: orange;
+    font-size: 40px;
+}
+.img{
+    position: center;
+    width: fit-content;
+    height: fit-content;
+}

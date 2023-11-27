@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VINSHOOL</title>
+    <link rel="stylesheet" href="font thư viện.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="layout.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VINSCHOOL</title>
+    <style>
+        body{
+            padding: 0px; 
+            margin: 0px;
+        }
+        header{
+            height: 250px;
+            width: 500px;
+            background: yellowgreen;
+        }
+        img{
+            height: 250px;
+            width: 100%;
+        }
+        .menu>ul>li{
+            display:inline-block;
+        }
+        .menu>ul>li>a{
+            display:block
+        }
+        .menu>ul{
+            padding:0px;
+            margin:0px;
+            list-style:none;
+            border-radius:3px;
+            background-color:yellowgreen;
+            text-align:center;
+        }
+        .menu>ul>li>a{
+            text-decoration:none;
+            font-variant:small-caps;
+            font-size:larger;
+            color:rgb(255, 255, 255);
+            padding:0 10px;
+            line-height:40px;
+        }
+        .menu>ul>li>a:hover{
+            color:yellow;
+        }
+        .menu>ul>li{
+            position:relative;
+        }
+        .menu ul ul{
+            position:absolute;
+            display:none;
+        }
+        .menu ul ul a{
+            display:block;
+        }
+        .menu>ul>li:hover>ul{
+            display:block;
+        }
+        .menu ul ul{
+            padding:0px;
+            margin:0px;
+            list-style:none;
+            border-radius:3px;
+            width:200px;
+            background-color:white;
+            box-shadow:0 0 1px gray;
+        }
+        .menu ul ul a{
+            line-height:30px;
+            color:yellowgreen;
+            text-decoration:none;
+            font-variant:small-caps;
+            font-size:larger;
+            padding:0 10px;
+        }
+        .menu ul ul a:hover{
+            background-color:yellowgreen;
+            color:white;
+        }
+        aside{
+            min-height: 350px; 
+            width: 25%; 
+            background: rgb(255, 255, 255);
+            float: right;
+        }
+        footer{
+            border-top:5px double yellowgreen; 
+            line-height:50px;
+            background-color:lightcyan; 
+            text-align: center;
+            font-variant: small-caps;
+            clear: both; 
+        }
+    </style>
+</head>
+<body>
+        
+    <center><header><img src="image/vinschool.png"></header></center>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li>
+                <a href="#">Giới thiệu</a>
+                <ul>
+                    <li>
+                        <li>
+                            <a href="sơ đồ tổ chức.html">sơ đồ tổ chức</a>
+                        </li>
+                        <li><a href="thư viện.html">thư viện</a></li>
+                        
+                    </li>
+                
+                </ul>
+            </li>
+            <li>
+                <a>Liên hệ</a>
+                <ul>
+
+                    <li><a href="mobile.html">Mobile</a></li>
+                    <li><a href="email.html">Email</a></li>
+                </ul>
+            </li>
+            <li>
+                <a>Góp ý</a>
+                <ul>
+                    <li><a href="trực tiếp.html">Trực tiếp </a></li>
+                    <li><a href="gián tiếp.html">Gián tiếp </a></li>
+                </ul>
+            </li>
+            <li><a href="#">Hỏi đáp</a></li>
+        </ul>
+    </nav>
+    <article>
+        
+        <div class="column"> 
+            <div class="san-pham">
+            <div class="ten"><a href="https://www.o-study.net/">sách giáo khoa</a></div>
+            <img src="image/sach.jpg">
+            <div class="gia">
+            MƯỢN NGAY!
+            </div>
+            </div>
+            </div>
+            <div class="column">
+                <div class="san-pham">
+                <div class="ten"><a href="https://newshop.vn/sach-tham-khao/">sách tham khảo</a></div>
+                <img src="image/sach.jpg">
+                <div class="gia">
+                    MƯỢN NGAY!
+                </div>
+                </div>
+                </div><div class="column">
+                    <div class="san-pham">
+                    <div class="ten"><a href="https://nld.com.vn/thoi-su/huan-hoa-hong-bi-xu-phat-175-trieu-vi-xuat-ban-sach-de-nhat-kiem-tien-20200706183341305.htm">sách đa cấp</a></div>
+                    <img src="image/de nhat kiem tien.png">
+                    <div class="gia">
+                        MƯỢN NGAY!
+                    </div>
+                    </div>
+                    </div><div class="column">
+                        <div class="san-pham">
+                        <div class="ten"><a href="https://enovel.mobi/tieu-thuyet/">tiểu thuyết</a></div>
+                        <img src="image/con sói cô độc.jpg">
+                        <div class="gia">
+                            MƯỢN NGAY!
+                        </div>
+                        </div>
+                        </div><div class="column">
+                            <div class="san-pham">
+                            <div class="ten"><a href="https://nghecotich.com/the-loai/truyen-1001-dem/">tủ truyện nghìn lẻ 1 đêm</a></div>
+                            <img src="image/nghin le 1 dem.jpg">
+                            <div class="gia">
+                                MƯỢN NGAY!
+                            </div>
+                            </div>
+                            </div><div class="column">
+                                <div class="san-pham">
+                                <div class="ten"><a href="https://dsgc.edu.vn/chuyen-muc/tai-lieu-giao-trinh-giang-day-hoc-tap/">giáo trình học tập</a></div>
+                                <img src="image/fsdfsdfsfs.jpg">
+                                <div class="gia">
+                                    MƯỢN NGAY!
+                                </div>
+                                </div>
+                                </div><div class="column">
+                                    <div class="san-pham">
+                                    <div class="ten"><a href="https://nhasachmienphi.com/dac-nhan-tam.html">dảk nhân tâm</a></div>
+                                    <img src="image/dark nhân tâm.png">
+                                    <div class="gia">
+                                        MƯỢN NGAY!
+                                    </div>
+                                    </div>
+                                    </div><div class="column">
+                                        <div class="san-pham">
+                                        <div class="ten"><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nhasachgiaoduc.vn%2Fsach-bi-an-mai-mai-la-bi-an-tron-bo-6-tap&psig=AOvVaw2M3Liud78jssrU4O3XwjRT&ust=1701031304297000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwi2sLbGgeCCAxXoa_UHHXtTCq8Qr4kDegQIARBM">người sao hỏa ăn gì ?</a></div>
+                                        <img src="image/ăn gì.png">
+                                        <div class="gia">
+                                            MƯỢN NGAY!
+                                        </div>
+                                        </div>
+                                        </div>
+        </article>
+    
+    <footer>DHHP © 2023. All rights reserved</footer>
+
+    
+</div>
+</body>
+</html>
+</body>
+</html>
